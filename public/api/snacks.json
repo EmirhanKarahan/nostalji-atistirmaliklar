@@ -1,0 +1,13 @@
+{
+  "snacks": [
+    { "name": "Chat Cola", "continued": false, "category": "Beverage" },
+    { "name": "Panço Mısır Cipsi", "continued": false, "category": "Chips" },
+    { "name": "Pizza Jelibon", "continued": true, "category": "Other" },
+    { "name": "Eti Melo", "continued": false, "category": "Biscuit" },
+    {
+      "name": "Ülker Çikolatalı Gofret",
+      "continued": true,
+      "category": "Chocolate"
+    }
+  ]
+}
