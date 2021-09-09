@@ -9,14 +9,14 @@ function SnackList() {
 
   useEffect(() => {
     dispatch(fetchSnacks());
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <main className="snack-list">
       <div className="content-container">
         <div className="snack-list__content">
           {snacks.data?.map((snack) => {
-            return <SnackCard key={snack.id} snack={snack} />;
+            return <SnackCard key={snack.name} snack={snack} />;
           })}
         </div>
       </div>
