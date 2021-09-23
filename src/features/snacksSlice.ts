@@ -3,8 +3,8 @@ import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 export interface Snack {
   id: number;
   name: string;
-  countinued?:boolean;
-  category:string;
+  imageUrl:string;
+  categoryName:number;
 }
 
 interface SnackState {
