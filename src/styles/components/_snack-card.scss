@@ -3,9 +3,13 @@
     flex-direction: column;
     margin: $s-size;
 }
-.sncak-card__category img{
-    width: 1rem;
+
+.snack-card__category{
+    display: flex;
+    align-items: center;
+    margin-bottom: $s-size;
 }
+
 .snack-card__img{
     width: 22rem;
     height: 15rem;
@@ -15,12 +19,14 @@
 }
 
 .snack-card__button{
-    padding: $s-size;
+    padding: $m-size;
+    font-size: $m-size;
     font-family: inherit;
     font-weight: bold;
     background-color:#48d479;
     text-decoration: inherit;
     color: inherit;
     text-align: center;
+    border: none;
     border-radius: 1rem;
 }
