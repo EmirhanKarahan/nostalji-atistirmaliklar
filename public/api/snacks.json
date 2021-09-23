@@ -1,13 +1,40 @@
 {
   "snacks": [
-    { "name": "Chat Cola", "continued": false, "category": "Beverage" },
-    { "name": "Panço Mısır Cipsi", "continued": false, "category": "Chips" },
-    { "name": "Pizza Jelibon", "continued": true, "category": "Other" },
-    { "name": "Eti Melo", "continued": false, "category": "Biscuit" },
     {
+      "id": "1",
+      "name": "Chat Cola",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/nostalji-9cc7f.appspot.com/o/chat-kola.webp?alt=media&token=a544d59a-7b23-4eb2-ba7b-55042d752951",
+      "categoryName": "Beverage"
+    },
+    {
+      "id": "2",
+      "name": "Panço Mısır Cipsi",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/nostalji-9cc7f.appspot.com/o/pinat-gida-panco-misir-cipsi.webp?alt=media&token=a77cec74-0be3-4bb5-994e-fba36c31c89a",
+      "categoryName": "Chips"
+    },
+    {
+      "id": "3",
+      "name": "Bebeto Pizza Kola Jelibon",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/nostalji-9cc7f.appspot.com/o/bebeto-pizza-cola-jelibon.webp?alt=media&token=ad380e1e-6961-49ec-948d-cac6fc58d48d",
+      "categoryName": "Other"
+    },
+    {
+      "id": "4",
+      "name": "Eti Melo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/nostalji-9cc7f.appspot.com/o/eti-melo.webp?alt=media&token=9d679f2c-f82b-43f7-95a1-a0d71fb86168",
+      "categoryName": "Biscuit"
+    },
+    {
+      "id": "5",
       "name": "Ülker Çikolatalı Gofret",
-      "continued": true,
-      "category": "Chocolate"
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/nostalji-9cc7f.appspot.com/o/ulker-cikolatali-gofret.webp?alt=media&token=e198c55f-dcdf-495a-beaf-2675469022d1",
+      "categoryName": "Chocolate"
+    },
+    {
+      "id": "6",
+      "name": "Ülker Harby",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/nostalji-9cc7f.appspot.com/o/ulker-harby.webp?alt=media&token=d411dad5-4165-49ad-9354-74d7c2e190c8",
+      "categoryName": "Chocolate"
     }
   ]
 }
