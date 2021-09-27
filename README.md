@@ -1,6 +1,6 @@
 # Nostalji Atıştırmalıklar
 
-Geçmişten günümüze Türkiye'de satılmış nostalji atıştırmalıkların listelendiği site. [nostalji.netlifyapp.com](https://nostalji.netlifyapp.com)
+Geçmişten günümüze Türkiye'de satılmış nostalji atıştırmalıkların listelendiği site. [nostalji.netlifyapp.com](https://nostalji.netlify.com)
 
 ## Install and Run
 
