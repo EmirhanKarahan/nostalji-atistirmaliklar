@@ -29,4 +29,13 @@
     text-align: center;
     border: none;
     border-radius: 1rem;
+
+    &:focus{
+        border-radius: inherit;
+    }
+
+    &:hover, &:focus{
+        transform: scale(1.1);
+    }
+
 }
