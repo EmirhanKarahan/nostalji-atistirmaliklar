@@ -35,6 +35,30 @@
       "name": "Ülker Harby",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/nostalji-9cc7f.appspot.com/o/ulker-harby.webp?alt=media&token=d411dad5-4165-49ad-9354-74d7c2e190c8",
       "categoryName": "Chocolate"
+    },
+    {
+      "id": "7",
+      "name": "Ülker Peki",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/nostalji-9cc7f.appspot.com/o/ulker-peki.webp?alt=media&token=66a948bb-bc00-4813-903a-1e5715b8c34a",
+      "categoryName": "Cake"
+    },
+    {
+      "id": "8",
+      "name": "Nazar 3'lü Sakız",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/nostalji-9cc7f.appspot.com/o/saadet-nazar-3lu-sakiz.webp?alt=media&token=9fe397c0-d5b5-415a-8576-f1babd7d74fc",
+      "categoryName": "Gum"
+    },
+    {
+      "id": "9",
+      "name": "Turbo Sakız",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/nostalji-9cc7f.appspot.com/o/turbo-sakiz.webp?alt=media&token=cac35eb8-0817-4b51-bd1d-35a26312063b",
+      "categoryName": "Gum"
+    },
+    {
+      "id": "10",
+      "name": "Kent Yumiyum",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/nostalji-9cc7f.appspot.com/o/kent-yumiyum.webp?alt=media&token=01beffed-b411-4201-86ac-a8f6e8f5dd57",
+      "categoryName": "Other"
     }
   ]
 }
