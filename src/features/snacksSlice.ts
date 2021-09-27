@@ -4,7 +4,7 @@ export interface Snack {
   id: number;
   name: string;
   imageUrl:string;
-  categoryName:number;
+  categoryName:string;
 }
 
 interface SnackState {
