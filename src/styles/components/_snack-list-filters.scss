@@ -1,0 +1,30 @@
+.snack-list-filters {
+  margin-top: 0.5rem;
+}
+
+.snack-list-filters > .content-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.snack-list-filters__select,
+.snack-list-filters__text-input {
+  height: $xl-size;
+  border: solid $grey 2px;
+  border-radius: 5px;
+  font-size: $l-size;
+  color: $dark-grey;
+  width: 40rem;
+  font-family: inherit;
+  display: block;
+}
+
+@media (max-width: 850px) {
+  .snack-list-filters__select,
+  .snack-list-filters__text-input {
+    width: 20rem;
+    height: $l-size;
+    font-size: $m-size;
+  }
+}

@@ -18,7 +18,7 @@ function SnackList() {
     <main className="snack-list">
       <div className="content-container">
         <div className="snack-list__content">
-          {snacksState.data?.map((snack) => {
+          {snacks?.map((snack) => {
             return <SnackCard key={snack.name} snack={snack} />;
           })}
         </div>

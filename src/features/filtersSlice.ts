@@ -2,12 +2,12 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 export interface FilterState {
   text: string;
-  sortBy: string;
+  category: string;
 }
 
 const initialState: FilterState = {
   text: "",
-  sortBy: "",
+  category: "",
 };
 
 const filtersSlice = createSlice({
@@ -17,14 +17,11 @@ const filtersSlice = createSlice({
     setFilterText: (state, action: PayloadAction<string>) => {
       state.text = action.payload;
     },
-    sortByName: (state) => {
-      state.sortBy = "name";
-    },
-    sortByCategoryName: (state) => {
-      state.sortBy = "categoryName";
+    setFilterCategory: (state, action:PayloadAction<string>) => {
+      state.category = action.payload;
     },
   },
 });
 
 export default filtersSlice.reducer;
-export const { setFilterText, sortByCategoryName, sortByName } = filtersSlice.actions;
+export const { setFilterText, setFilterCategory } = filtersSlice.actions;
