@@ -1,41 +1,42 @@
-.snack-card{
-    display: flex;
-    flex-direction: column;
-    margin: $s-size;
+.snack-card {
+  display: flex;
+  flex-direction: column;
+  margin: $s-size;
 }
 
-.snack-card__category{
-    display: flex;
-    align-items: center;
-    margin-bottom: $s-size;
+.snack-card__category {
+  display: flex;
+  align-items: center;
+  margin-bottom: $s-size;
 }
 
-.snack-card__img{
-    width: 22rem;
-    height: 15rem;
-    object-fit: cover;
-    border-radius: $s-size;
-    margin-bottom: $s-size;
+.snack-card__img {
+  width: 22rem;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: $s-size;
+  margin-bottom: $s-size;
 }
 
-.snack-card__button{
-    padding: $m-size;
-    font-size: $m-size;
-    font-family: inherit;
-    font-weight: bold;
-    background-color:#48d479;
-    text-decoration: inherit;
-    color: inherit;
-    text-align: center;
-    border: none;
+.snack-card__button {
+  padding: $m-size;
+  font-size: $m-size;
+  font-family: inherit;
+  font-weight: bold;
+  background-color: #48d479;
+  text-decoration: inherit;
+  color: inherit;
+  text-align: center;
+  border: none;
+  border-radius: 1rem;
+
+  &:focus {
     border-radius: 1rem;
+    outline: none;
+  }
 
-    &:focus{
-        border-radius: inherit;
-    }
-
-    &:hover, &:focus{
-        transform: scale(1.1);
-    }
-
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
 }

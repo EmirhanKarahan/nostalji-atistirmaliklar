@@ -19,7 +19,7 @@ function SnackCard({ snack }: SnackCardProps) {
       <div className="snack-card__title">{snack.name}</div>
       <button
         className="snack-card__button"
-        onClick={() => googleSearch(snack.name)}
+        onClick={(e) => {googleSearch(snack.name); e.currentTarget.blur()}}
       >
         Hala satışta mı?
       </button>
